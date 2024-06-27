@@ -16,6 +16,7 @@ setup(
     author_email='kmmbvnr@gmail.com',
     description='Plug and play continuous integration with django and jenkins',
     long_description=read(path.abspath(path.join(path.dirname(__file__), 'README.rst'))),
+    long_description_content_type='text/x-rst',
     license='LGPL',
     platforms=['Any'],
     keywords=['pyunit', 'unittest', 'testrunner', 'hudson', 'jenkins',
