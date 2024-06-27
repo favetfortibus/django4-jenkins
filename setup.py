@@ -10,10 +10,10 @@ read = lambda filepath: codecs.open(filepath, 'r', 'utf-8').read()
 
 
 setup(
-    name='django-jenkins',
-    version='1.12.0',
-    author='Mikhail Podgurskiy',
-    author_email='kmmbvnr@gmail.com',
+    name='django4-jenkins',
+    version='1.0.0',
+    author='favetfortibus',
+    author_email='favetfortibus@gmail.com',
     description='Plug and play continuous integration with django and jenkins',
     long_description=read(path.abspath(path.join(path.dirname(__file__), 'README.rst'))),
     long_description_content_type='text/x-rst',
@@ -22,7 +22,7 @@ setup(
     keywords=['pyunit', 'unittest', 'testrunner', 'hudson', 'jenkins',
               'django', 'pylint', 'pep8', 'pyflakes', 'csslint', 'scsslint',
               'jshint', 'coverage'],
-    url='http://github.com/kmmbvnr/django-jenkins',
+    url='http://github.com/favetfortibus/django4-jenkins',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',

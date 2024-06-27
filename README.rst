@@ -20,7 +20,7 @@ Installation
 
 From PyPI::
 
-    $ pip install django-jenkins
+    $ pip install django4-jenkins
 
 Or by downloading the source and running::
 
@@ -28,7 +28,7 @@ Or by downloading the source and running::
 
 Latest git version::
 
-    $ pip install -e git+git://github.com/kmmbvnr/django-jenkins.git#egg=django-jenkins
+    $ pip install -e git+git://github.com/favetfortibus/django4-jenkins.git#egg=django4-jenkins
     $ pip install coverage
 
 Installation for Python 3::
@@ -45,8 +45,6 @@ Configure Jenkins to run the following command::
 
 This will create reports/ directory with junit xml, Coverage and Pylint
 reports.
-
-For more details see the generic tutorial: https://sites.google.com/site/kmmbvnr/home/django-jenkins-tutorial
 
 Settings
 --------
@@ -74,7 +72,7 @@ Settings
 Reporters
 ---------
 
-Here is the reporters prebuild with django-jenkins
+Here is the reporters prebuild with django4-jenkins
 
 - ``django_jenkins.tasks.run_pylint``
 
@@ -127,7 +125,7 @@ Contribution guide
 ~~~~~~~~~~~~~~~~~~
 
 * Set up local jenkins
-* Set up django-jenkins::
+* Set up django4-jenkins::
 
     npm install jshint
     npm install csslint
