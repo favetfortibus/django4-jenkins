@@ -1,5 +1,7 @@
-django-jenkins
+django4-jenkins
 ==============
+
+This is a fork of https://github.com/kmmbvnr/django-jenkins, which appears to be dead, to enable support for Django 4.
 
 Plug and play continuous integration with Django and Jenkins
 
