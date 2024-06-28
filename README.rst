@@ -1,19 +1,9 @@
 django4-jenkins
 ===============
 
-This is a fork of https://github.com/kmmbvnr/django-jenkins, which appears to be dead, to enable support for Django 4.
+This is a fork of https://github.com/kmmbvnr/django-jenkins, which appears to be abandoned.
 
-Plug and play continuous integration with Django and Jenkins
-
-.. image:: https://img.shields.io/pypi/v/django-jenkins.svg
-    :target: https://pypi.python.org/pypi/django-jenkins
-
-.. image:: https://requires.io/github/kmmbvnr/django-jenkins/requirements.png?branch=master
-   :target: https://requires.io/github/kmmbvnr/django-jenkins/requirements/?branch=master
-
-.. image:: https://badges.gitter.im/Join%20Chat.svg
-        :target: https://gitter.im/kmmbvnr/django-jenkins?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
+This fork enables support for Django 4 and updates the coverage dependency to v5.
 
 Installation
 ------------
